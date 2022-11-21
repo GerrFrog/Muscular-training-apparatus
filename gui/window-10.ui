@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>120</y>
+      <width>671</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">width: 609px;
+height: 227px;
+left: 105px;
+top: 97px;
+
+font-family: 'Graduate';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;</string>
+    </property>
+    <property name="text">
+     <string>
+Дыхание помогает вам справиться с беспокойством и нервами, которые вызывают дрожь. Попробуйте “боковое дыхание”, при котором вы вдыхаете через нос в течение 4 секунд, задерживаете дыхание еще на 4 секунды и, наконец, выдыхаете через рот в течение 4 секунд. Делайте столько вдохов, сколько вам нужно, пока не почувствуете себя более расслабленным.
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>380</y>
+      <width>227</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">width: 227px;
+height: 61px;
+left: 287px;
+top: 257px;
+
+background: #33BBE7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 24px;
+
+font-family: 'Hind';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>Далее</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>380</y>
+      <width>227</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">width: 227px;
+height: 61px;
+left: 287px;
+top: 257px;
+
+background: #33BBE7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 24px;
+
+font-family: 'Hind';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>Назад</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>20</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">width: 609px;
+height: 227px;
+left: 105px;
+top: 97px;
+
+font-family: 'Graduate';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;</string>
+    </property>
+    <property name="text">
+     <string>Восстановление дыхания</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res/res.qrc"/>
+  <include location="../../../res/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
