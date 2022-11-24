@@ -29,7 +29,7 @@
    <string notr="true">background-color:white;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="start_pushButton">
     <property name="geometry">
      <rect>
       <x>270</x>
@@ -61,7 +61,7 @@ color: #FFFFFF;</string>
      <string>Начать</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="main_label">
     <property name="geometry">
      <rect>
       <x>128</x>

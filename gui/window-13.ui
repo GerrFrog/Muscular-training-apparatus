@@ -17,7 +17,7 @@
    <string notr="true">background-color:white;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="main_label">
     <property name="geometry">
      <rect>
       <x>210</x>
@@ -55,7 +55,7 @@ mix-blend-mode: darken;</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="again_pushButton">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -87,7 +87,7 @@ color: #FFFFFF;</string>
      <string>Начать заново</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="finish_pushButton">
     <property name="geometry">
      <rect>
       <x>300</x>

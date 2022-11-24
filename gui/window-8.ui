@@ -17,7 +17,7 @@
    <string notr="true">background-color:white;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="img_label">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -36,7 +36,7 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="previous_pushButton">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -68,7 +68,7 @@ color: #FFFFFF;</string>
      <string>Назад</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="main_label">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -102,7 +102,7 @@ color: #000000;</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="sub_label">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -137,7 +137,7 @@ color: #000000;</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="next_pushButton">
     <property name="geometry">
      <rect>
       <x>540</x>
