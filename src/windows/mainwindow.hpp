@@ -4,6 +4,11 @@
 #define WINDOWS_MAINWINDOW_HEADER
 
 #include <QMainWindow>
+#include <QDebug>
+
+#include "../kernel/common.hpp"
+
+#include "page_2/inc/page_2.hpp"
 
 QT_BEGIN_NAMESPACE
 namespace Ui 
@@ -26,5 +31,10 @@ class MainWindow :
 
     private:
         Ui::MainWindow *ui;
+
+        Page_2 m_page_2;
+
+    private slots:
+        void handle_start_pushButton();
 };
 #endif 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>Page_13</class>
+ <widget class="QWidget" name="Page_13">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -16,18 +16,24 @@
   <property name="styleSheet">
    <string notr="true">background-color:white;</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="main_label">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>70</y>
-      <width>411</width>
-      <height>131</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">width: 545px;
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QWidget" name="centralwidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <widget class="QWidget" name="page">
+         <widget class="QLabel" name="main_label">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>20</y>
+            <width>411</width>
+            <height>131</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">width: 545px;
 height: 168px;
 left: 128px;
 top: 71px;
@@ -42,30 +48,30 @@ text-align: center;
 color: #000000;
 
 mix-blend-mode: darken;</string>
-    </property>
-    <property name="text">
-     <string>Поздравляем с завершением! 
+          </property>
+          <property name="text">
+           <string>Поздравляем с завершением! 
 
 Программа реабилитации дрожания пальцев рук</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="again_pushButton">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>250</y>
-      <width>227</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">width: 227px;
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="again_pushButton">
+          <property name="geometry">
+           <rect>
+            <x>270</x>
+            <y>210</y>
+            <width>227</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">width: 227px;
 height: 61px;
 left: 287px;
 top: 257px;
@@ -82,22 +88,22 @@ line-height: 38px;
 text-align: center;
 
 color: #FFFFFF;</string>
-    </property>
-    <property name="text">
-     <string>Начать заново</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="finish_pushButton">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>360</y>
-      <width>227</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">width: 227px;
+          </property>
+          <property name="text">
+           <string>Начать заново</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="finish_pushButton">
+          <property name="geometry">
+           <rect>
+            <x>270</x>
+            <y>300</y>
+            <width>227</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">width: 227px;
 height: 61px;
 left: 287px;
 top: 257px;
@@ -114,12 +120,19 @@ line-height: 38px;
 text-align: center;
 
 color: #FFFFFF;</string>
-    </property>
-    <property name="text">
-     <string>Завершить</string>
-    </property>
-   </widget>
-  </widget>
+          </property>
+          <property name="text">
+           <string>Завершить</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_2"/>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>

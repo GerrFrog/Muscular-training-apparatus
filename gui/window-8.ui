@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>Page_8</class>
+ <widget class="QWidget" name="Page_8">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -16,69 +16,24 @@
   <property name="styleSheet">
    <string notr="true">background-color:white;</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="img_label">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>210</y>
-      <width>281</width>
-      <height>171</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="res/res.qrc">:/img/img/img_6.png</pixmap>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="previous_pushButton">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>380</y>
-      <width>227</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">width: 227px;
-height: 61px;
-left: 287px;
-top: 257px;
-
-background: #33BBE7;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 24px;
-
-font-family: 'Hind';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 38px;
-text-align: center;
-
-color: #FFFFFF;</string>
-    </property>
-    <property name="text">
-     <string>Назад</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="main_label">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>20</y>
-      <width>221</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">width: 609px;
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QWidget" name="centralwidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <widget class="QWidget" name="page">
+         <widget class="QLabel" name="main_label">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>10</y>
+            <width>221</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">width: 609px;
 height: 227px;
 left: 105px;
 top: 97px;
@@ -91,28 +46,28 @@ line-height: 23px;
 text-align: center;
 
 color: #000000;</string>
-    </property>
-    <property name="text">
-     <string>Упражнение 5</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="sub_label">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>70</y>
-      <width>681</width>
-      <height>121</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">width: 609px;
+          </property>
+          <property name="text">
+           <string>Упражнение 5</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="sub_label">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>60</y>
+            <width>681</width>
+            <height>121</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">width: 609px;
 height: 227px;
 left: 105px;
 top: 97px;
@@ -125,29 +80,48 @@ line-height: 23px;
 text-align: center;
 
 color: #000000;</string>
-    </property>
-    <property name="text">
-     <string>Поднятие пальца. 
+          </property>
+          <property name="text">
+           <string>Поднятие пальца. 
  Положите руку ладонью вниз на ровную поверхность. По очереди поднимайте пальцы и кладите их обратно на поверхность. Можно поднимать все пальцы сразу. Повторите 10-12 раз для каждой руки. </string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="next_pushButton">
-    <property name="geometry">
-     <rect>
-      <x>540</x>
-      <y>380</y>
-      <width>227</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">width: 227px;
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="img_label">
+          <property name="geometry">
+           <rect>
+            <x>240</x>
+            <y>200</y>
+            <width>281</width>
+            <height>171</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap resource="res/res.qrc">:/img/img/img_6.png</pixmap>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="previous_pushButton">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>380</y>
+            <width>227</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">width: 227px;
 height: 61px;
 left: 287px;
 top: 257px;
@@ -164,16 +138,55 @@ line-height: 38px;
 text-align: center;
 
 color: #FFFFFF;</string>
-    </property>
-    <property name="text">
-     <string>Далее</string>
-    </property>
-   </widget>
-  </widget>
+          </property>
+          <property name="text">
+           <string>Назад</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="next_pushButton">
+          <property name="geometry">
+           <rect>
+            <x>530</x>
+            <y>380</y>
+            <width>227</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">width: 227px;
+height: 61px;
+left: 287px;
+top: 257px;
+
+background: #33BBE7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 24px;
+
+font-family: 'Hind';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+
+color: #FFFFFF;</string>
+          </property>
+          <property name="text">
+           <string>Далее</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_2"/>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
  </widget>
  <resources>
   <include location="res/res.qrc"/>
-  <include location="../../../res/res.qrc"/>
+  <include location="res/res.qrc"/>
  </resources>
  <connections/>
 </ui>
