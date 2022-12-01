@@ -41,7 +41,7 @@ public:
     {
         if (Page_12->objectName().isEmpty())
             Page_12->setObjectName(QString::fromUtf8("Page_12"));
-        Page_12->resize(800, 480);
+        Page_12->resize(800, 420);
         Page_12->setStyleSheet(QString::fromUtf8("background-color:white;"));
         verticalLayout = new QVBoxLayout(Page_12);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
@@ -75,7 +75,7 @@ public:
         main_label->setWordWrap(true);
         description_1_label = new QLabel(page);
         description_1_label->setObjectName(QString::fromUtf8("description_1_label"));
-        description_1_label->setGeometry(QRect(10, 350, 381, 16));
+        description_1_label->setGeometry(QRect(10, 260, 381, 16));
         description_1_label->setStyleSheet(QString::fromUtf8("position: absolute;\n"
 "width: 392px;\n"
 "height: 46px;\n"
@@ -94,7 +94,7 @@ public:
         description_1_label->setWordWrap(true);
         next_pushButton = new QPushButton(page);
         next_pushButton->setObjectName(QString::fromUtf8("next_pushButton"));
-        next_pushButton->setGeometry(QRect(530, 350, 227, 61));
+        next_pushButton->setGeometry(QRect(540, 260, 227, 61));
         next_pushButton->setStyleSheet(QString::fromUtf8("width: 227px;\n"
 "height: 61px;\n"
 "left: 287px;\n"
@@ -114,7 +114,7 @@ public:
 "color: #FFFFFF;"));
         value_1_label = new QLabel(page);
         value_1_label->setObjectName(QString::fromUtf8("value_1_label"));
-        value_1_label->setGeometry(QRect(400, 380, 31, 16));
+        value_1_label->setGeometry(QRect(400, 290, 31, 16));
         value_1_label->setStyleSheet(QString::fromUtf8("position: absolute;\n"
 "width: 392px;\n"
 "height: 46px;\n"
@@ -133,7 +133,7 @@ public:
         value_1_label->setWordWrap(true);
         measure_1_label = new QLabel(page);
         measure_1_label->setObjectName(QString::fromUtf8("measure_1_label"));
-        measure_1_label->setGeometry(QRect(440, 350, 51, 16));
+        measure_1_label->setGeometry(QRect(440, 260, 51, 16));
         measure_1_label->setStyleSheet(QString::fromUtf8("position: absolute;\n"
 "width: 392px;\n"
 "height: 46px;\n"
@@ -152,7 +152,7 @@ public:
         measure_1_label->setWordWrap(true);
         value_2_label = new QLabel(page);
         value_2_label->setObjectName(QString::fromUtf8("value_2_label"));
-        value_2_label->setGeometry(QRect(400, 350, 31, 16));
+        value_2_label->setGeometry(QRect(400, 260, 31, 16));
         value_2_label->setStyleSheet(QString::fromUtf8("position: absolute;\n"
 "width: 392px;\n"
 "height: 46px;\n"
@@ -171,7 +171,7 @@ public:
         value_2_label->setWordWrap(true);
         measure_2_label = new QLabel(page);
         measure_2_label->setObjectName(QString::fromUtf8("measure_2_label"));
-        measure_2_label->setGeometry(QRect(440, 380, 51, 16));
+        measure_2_label->setGeometry(QRect(440, 290, 51, 16));
         measure_2_label->setStyleSheet(QString::fromUtf8("position: absolute;\n"
 "width: 392px;\n"
 "height: 46px;\n"
@@ -190,7 +190,7 @@ public:
         measure_2_label->setWordWrap(true);
         description_2_label = new QLabel(page);
         description_2_label->setObjectName(QString::fromUtf8("description_2_label"));
-        description_2_label->setGeometry(QRect(10, 380, 371, 16));
+        description_2_label->setGeometry(QRect(20, 290, 371, 16));
         description_2_label->setStyleSheet(QString::fromUtf8("position: absolute;\n"
 "width: 392px;\n"
 "height: 46px;\n"

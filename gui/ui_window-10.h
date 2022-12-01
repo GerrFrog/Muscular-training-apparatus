@@ -37,7 +37,7 @@ public:
     {
         if (Page_10->objectName().isEmpty())
             Page_10->setObjectName(QString::fromUtf8("Page_10"));
-        Page_10->resize(800, 480);
+        Page_10->resize(800, 420);
         Page_10->setStyleSheet(QString::fromUtf8("background-color:white;"));
         verticalLayout_2 = new QVBoxLayout(Page_10);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
@@ -51,7 +51,7 @@ public:
         page->setObjectName(QString::fromUtf8("page"));
         main_label = new QLabel(page);
         main_label->setObjectName(QString::fromUtf8("main_label"));
-        main_label->setGeometry(QRect(210, 10, 391, 31));
+        main_label->setGeometry(QRect(200, 0, 391, 31));
         main_label->setStyleSheet(QString::fromUtf8("width: 609px;\n"
 "height: 227px;\n"
 "left: 105px;\n"
@@ -69,7 +69,7 @@ public:
         main_label->setWordWrap(true);
         sub_label = new QLabel(page);
         sub_label->setObjectName(QString::fromUtf8("sub_label"));
-        sub_label->setGeometry(QRect(40, 120, 671, 161));
+        sub_label->setGeometry(QRect(60, 30, 671, 161));
         sub_label->setStyleSheet(QString::fromUtf8("width: 609px;\n"
 "height: 227px;\n"
 "left: 105px;\n"
@@ -87,7 +87,7 @@ public:
         sub_label->setWordWrap(true);
         previoius_pushButton = new QPushButton(page);
         previoius_pushButton->setObjectName(QString::fromUtf8("previoius_pushButton"));
-        previoius_pushButton->setGeometry(QRect(20, 380, 227, 61));
+        previoius_pushButton->setGeometry(QRect(10, 270, 227, 61));
         previoius_pushButton->setStyleSheet(QString::fromUtf8("width: 227px;\n"
 "height: 61px;\n"
 "left: 287px;\n"
@@ -107,7 +107,7 @@ public:
 "color: #FFFFFF;"));
         next_pushButton = new QPushButton(page);
         next_pushButton->setObjectName(QString::fromUtf8("next_pushButton"));
-        next_pushButton->setGeometry(QRect(530, 380, 227, 61));
+        next_pushButton->setGeometry(QRect(540, 260, 227, 61));
         next_pushButton->setStyleSheet(QString::fromUtf8("width: 227px;\n"
 "height: 61px;\n"
 "left: 287px;\n"

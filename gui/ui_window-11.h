@@ -38,7 +38,7 @@ public:
     {
         if (Page_11->objectName().isEmpty())
             Page_11->setObjectName(QString::fromUtf8("Page_11"));
-        Page_11->resize(800, 480);
+        Page_11->resize(800, 420);
         Page_11->setStyleSheet(QString::fromUtf8("background-color:white;"));
         verticalLayout_2 = new QVBoxLayout(Page_11);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
@@ -52,7 +52,7 @@ public:
         page->setObjectName(QString::fromUtf8("page"));
         main_label = new QLabel(page);
         main_label->setObjectName(QString::fromUtf8("main_label"));
-        main_label->setGeometry(QRect(90, 10, 601, 71));
+        main_label->setGeometry(QRect(90, 0, 601, 71));
         main_label->setStyleSheet(QString::fromUtf8("position: absolute;\n"
 "width: 657px;\n"
 "height: 187px;\n"
@@ -73,7 +73,7 @@ public:
         main_label->setWordWrap(true);
         sub_label = new QLabel(page);
         sub_label->setObjectName(QString::fromUtf8("sub_label"));
-        sub_label->setGeometry(QRect(110, 90, 541, 71));
+        sub_label->setGeometry(QRect(110, 80, 541, 51));
         sub_label->setStyleSheet(QString::fromUtf8("position: absolute;\n"
 "width: 657px;\n"
 "height: 187px;\n"
@@ -94,12 +94,12 @@ public:
         sub_label->setWordWrap(true);
         img_label = new QLabel(page);
         img_label->setObjectName(QString::fromUtf8("img_label"));
-        img_label->setGeometry(QRect(240, 200, 291, 141));
+        img_label->setGeometry(QRect(240, 150, 291, 141));
         img_label->setPixmap(QPixmap(QString::fromUtf8(":/img/img/img_1.png")));
         img_label->setAlignment(Qt::AlignCenter);
         previous_pushButton = new QPushButton(page);
         previous_pushButton->setObjectName(QString::fromUtf8("previous_pushButton"));
-        previous_pushButton->setGeometry(QRect(20, 380, 227, 61));
+        previous_pushButton->setGeometry(QRect(0, 300, 227, 61));
         previous_pushButton->setStyleSheet(QString::fromUtf8("width: 227px;\n"
 "height: 61px;\n"
 "left: 287px;\n"
@@ -119,7 +119,7 @@ public:
 "color: #FFFFFF;"));
         next_pushButton = new QPushButton(page);
         next_pushButton->setObjectName(QString::fromUtf8("next_pushButton"));
-        next_pushButton->setGeometry(QRect(530, 380, 227, 61));
+        next_pushButton->setGeometry(QRect(520, 310, 227, 61));
         next_pushButton->setStyleSheet(QString::fromUtf8("width: 227px;\n"
 "height: 61px;\n"
 "left: 287px;\n"

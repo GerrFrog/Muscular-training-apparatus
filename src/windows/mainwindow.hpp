@@ -8,8 +8,6 @@
 
 #include "../kernel/common.hpp"
 
-#include "page_2/inc/page_2.hpp"
-
 QT_BEGIN_NAMESPACE
 namespace Ui 
 { 
@@ -32,9 +30,19 @@ class MainWindow :
     private:
         Ui::MainWindow *ui;
 
-        Page_2 m_page_2;
-
     private slots:
         void handle_start_pushButton();
+
+        void on_next_pushButton_clicked();
+        void on_next_pushButton_2_clicked();
+        void on_next_pushButton_3_clicked();
+        void on_next_pushButton_5_clicked();
+        void on_next_pushButton_6_clicked();
+        void on_next_pushButton_7_clicked();
+        void on_next_pushButton_9_clicked();
+        void on_next_pushButton_10_clicked();
+        void on_next_pushButton_11_clicked();
+        void on_next_pushButton_12_clicked();
+        void on_next_pushButton_13_clicked();
 };
 #endif 

@@ -21,18 +21,18 @@ set(
     UI_FILES
 
     ../gui/window-1.ui
-    ../gui/window-2.ui
-    ../gui/window-3.ui
-    ../gui/window-4.ui
-    ../gui/window-5.ui
-    ../gui/window-6.ui
-    ../gui/window-7.ui
-    ../gui/window-8.ui
-    ../gui/window-9.ui
-    ../gui/window-10.ui
-    ../gui/window-11.ui
-    ../gui/window-12.ui
-    ../gui/window-13.ui
+    # ../gui/window-2.ui
+    # ../gui/window-3.ui
+    # ../gui/window-4.ui
+    # ../gui/window-5.ui
+    # ../gui/window-6.ui
+    # ../gui/window-7.ui
+    # ../gui/window-8.ui
+    # ../gui/window-9.ui
+    # ../gui/window-10.ui
+    # ../gui/window-11.ui
+    # ../gui/window-12.ui
+    # ../gui/window-13.ui
 )
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
@@ -64,32 +64,32 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         windows/mainwindow.hpp
         windows/mainwindow.cpp
         # Headers
-        windows/page_2/inc/page_2.hpp
-        windows/page_3/inc/page_3.hpp
-        windows/page_4/inc/page_4.hpp
-        windows/page_5/inc/page_5.hpp
-        windows/page_6/inc/page_6.hpp
-        windows/page_7/inc/page_7.hpp
-        windows/page_8/inc/page_8.hpp
-        windows/page_9/inc/page_9.hpp
-        windows/page_10/inc/page_10.hpp
-        windows/page_11/inc/page_11.hpp
-        windows/page_12/inc/page_12.hpp
-        windows/page_13/inc/page_13.hpp
+        # windows/page_2/inc/page_2.hpp
+        # windows/page_3/inc/page_3.hpp
+        # windows/page_4/inc/page_4.hpp
+        # windows/page_5/inc/page_5.hpp
+        # windows/page_6/inc/page_6.hpp
+        # windows/page_7/inc/page_7.hpp
+        # windows/page_8/inc/page_8.hpp
+        # windows/page_9/inc/page_9.hpp
+        # windows/page_10/inc/page_10.hpp
+        # windows/page_11/inc/page_11.hpp
+        # windows/page_12/inc/page_12.hpp
+        # windows/page_13/inc/page_13.hpp
 
         # Sources
-        windows/page_2/src/page_2.cpp
-        windows/page_3/src/page_3.cpp
-        windows/page_4/src/page_4.cpp
-        windows/page_5/src/page_5.cpp
-        windows/page_6/src/page_6.cpp
-        windows/page_7/src/page_7.cpp
-        windows/page_8/src/page_8.cpp
-        windows/page_9/src/page_9.cpp
-        windows/page_10/src/page_10.cpp
-        windows/page_11/src/page_11.cpp
-        windows/page_12/src/page_12.cpp
-        windows/page_13/src/page_13.cpp
+        # windows/page_2/src/page_2.cpp
+        # windows/page_3/src/page_3.cpp
+        # windows/page_4/src/page_4.cpp
+        # windows/page_5/src/page_5.cpp
+        # windows/page_6/src/page_6.cpp
+        # windows/page_7/src/page_7.cpp
+        # windows/page_8/src/page_8.cpp
+        # windows/page_9/src/page_9.cpp
+        # windows/page_10/src/page_10.cpp
+        # windows/page_11/src/page_11.cpp
+        # windows/page_12/src/page_12.cpp
+        # windows/page_13/src/page_13.cpp
     )
 else()
     add_executable(
@@ -104,33 +104,33 @@ else()
         windows/mainwindow.cpp
         # Headers
         # windows/page_1/inc/page_1.hpp
-        windows/page_2/inc/page_2.hpp
-        windows/page_3/inc/page_3.hpp
-        windows/page_4/inc/page_4.hpp
-        windows/page_5/inc/page_5.hpp
-        windows/page_6/inc/page_6.hpp
-        windows/page_7/inc/page_7.hpp
-        windows/page_8/inc/page_8.hpp
-        windows/page_9/inc/page_9.hpp
-        windows/page_10/inc/page_10.hpp
-        windows/page_11/inc/page_11.hpp
-        windows/page_12/inc/page_12.hpp
-        windows/page_13/inc/page_13.hpp
+        # windows/page_2/inc/page_2.hpp
+        # windows/page_3/inc/page_3.hpp
+        # windows/page_4/inc/page_4.hpp
+        # windows/page_5/inc/page_5.hpp
+        # windows/page_6/inc/page_6.hpp
+        # windows/page_7/inc/page_7.hpp
+        # windows/page_8/inc/page_8.hpp
+        # windows/page_9/inc/page_9.hpp
+        # windows/page_10/inc/page_10.hpp
+        # windows/page_11/inc/page_11.hpp
+        # windows/page_12/inc/page_12.hpp
+        # windows/page_13/inc/page_13.hpp
 
         # Sources
         # windows/page_1/src/page_1.cpp
-        windows/page_2/src/page_2.cpp
-        windows/page_3/src/page_3.cpp
-        windows/page_4/src/page_4.cpp
-        windows/page_5/src/page_5.cpp
-        windows/page_6/src/page_6.cpp
-        windows/page_7/src/page_7.cpp
-        windows/page_8/src/page_8.cpp
-        windows/page_9/src/page_9.cpp
-        windows/page_10/src/page_10.cpp
-        windows/page_11/src/page_11.cpp
-        windows/page_12/src/page_12.cpp
-        windows/page_13/src/page_13.cpp
+        # windows/page_2/src/page_2.cpp
+        # windows/page_3/src/page_3.cpp
+        # windows/page_4/src/page_4.cpp
+        # windows/page_5/src/page_5.cpp
+        # windows/page_6/src/page_6.cpp
+        # windows/page_7/src/page_7.cpp
+        # windows/page_8/src/page_8.cpp
+        # windows/page_9/src/page_9.cpp
+        # windows/page_10/src/page_10.cpp
+        # windows/page_11/src/page_11.cpp
+        # windows/page_12/src/page_12.cpp
+        # windows/page_13/src/page_13.cpp
     )
 endif()
 

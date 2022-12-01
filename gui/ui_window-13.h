@@ -36,7 +36,7 @@ public:
     {
         if (Page_13->objectName().isEmpty())
             Page_13->setObjectName(QString::fromUtf8("Page_13"));
-        Page_13->resize(800, 480);
+        Page_13->resize(800, 420);
         Page_13->setStyleSheet(QString::fromUtf8("background-color:white;"));
         verticalLayout_2 = new QVBoxLayout(Page_13);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
@@ -50,7 +50,7 @@ public:
         page->setObjectName(QString::fromUtf8("page"));
         main_label = new QLabel(page);
         main_label->setObjectName(QString::fromUtf8("main_label"));
-        main_label->setGeometry(QRect(180, 20, 411, 131));
+        main_label->setGeometry(QRect(190, -10, 411, 131));
         main_label->setStyleSheet(QString::fromUtf8("width: 545px;\n"
 "height: 168px;\n"
 "left: 128px;\n"
@@ -70,7 +70,7 @@ public:
         main_label->setWordWrap(true);
         again_pushButton = new QPushButton(page);
         again_pushButton->setObjectName(QString::fromUtf8("again_pushButton"));
-        again_pushButton->setGeometry(QRect(270, 210, 227, 61));
+        again_pushButton->setGeometry(QRect(270, 130, 227, 61));
         again_pushButton->setStyleSheet(QString::fromUtf8("width: 227px;\n"
 "height: 61px;\n"
 "left: 287px;\n"
@@ -90,7 +90,7 @@ public:
 "color: #FFFFFF;"));
         finish_pushButton = new QPushButton(page);
         finish_pushButton->setObjectName(QString::fromUtf8("finish_pushButton"));
-        finish_pushButton->setGeometry(QRect(270, 300, 227, 61));
+        finish_pushButton->setGeometry(QRect(270, 220, 227, 61));
         finish_pushButton->setStyleSheet(QString::fromUtf8("width: 227px;\n"
 "height: 61px;\n"
 "left: 287px;\n"
