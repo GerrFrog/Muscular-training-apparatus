@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>480</height>
+    <height>420</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -27,7 +27,7 @@
           <property name="geometry">
            <rect>
             <x>90</x>
-            <y>10</y>
+            <y>0</y>
             <width>601</width>
             <height>71</height>
            </rect>
@@ -64,9 +64,9 @@ mix-blend-mode: darken;</string>
           <property name="geometry">
            <rect>
             <x>110</x>
-            <y>90</y>
+            <y>80</y>
             <width>541</width>
-            <height>71</height>
+            <height>51</height>
            </rect>
           </property>
           <property name="styleSheet">
@@ -102,7 +102,7 @@ mix-blend-mode: darken;</string>
           <property name="geometry">
            <rect>
             <x>240</x>
-            <y>200</y>
+            <y>150</y>
             <width>291</width>
             <height>141</height>
            </rect>
@@ -120,8 +120,8 @@ mix-blend-mode: darken;</string>
          <widget class="QPushButton" name="previous_pushButton">
           <property name="geometry">
            <rect>
-            <x>20</x>
-            <y>380</y>
+            <x>0</x>
+            <y>300</y>
             <width>227</width>
             <height>61</height>
            </rect>
@@ -152,8 +152,8 @@ color: #FFFFFF;</string>
          <widget class="QPushButton" name="next_pushButton">
           <property name="geometry">
            <rect>
-            <x>530</x>
-            <y>380</y>
+            <x>520</x>
+            <y>310</y>
             <width>227</width>
             <height>61</height>
            </rect>

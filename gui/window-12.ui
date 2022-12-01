@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>480</height>
+    <height>420</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -63,7 +63,7 @@ mix-blend-mode: darken;</string>
           <property name="geometry">
            <rect>
             <x>10</x>
-            <y>350</y>
+            <y>260</y>
             <width>381</width>
             <height>16</height>
            </rect>
@@ -97,8 +97,8 @@ color: #000000;</string>
          <widget class="QPushButton" name="next_pushButton">
           <property name="geometry">
            <rect>
-            <x>530</x>
-            <y>350</y>
+            <x>540</x>
+            <y>260</y>
             <width>227</width>
             <height>61</height>
            </rect>
@@ -130,7 +130,7 @@ color: #FFFFFF;</string>
           <property name="geometry">
            <rect>
             <x>400</x>
-            <y>380</y>
+            <y>290</y>
             <width>31</width>
             <height>16</height>
            </rect>
@@ -165,7 +165,7 @@ color: #000000;</string>
           <property name="geometry">
            <rect>
             <x>440</x>
-            <y>350</y>
+            <y>260</y>
             <width>51</width>
             <height>16</height>
            </rect>
@@ -200,7 +200,7 @@ color: #000000;</string>
           <property name="geometry">
            <rect>
             <x>400</x>
-            <y>350</y>
+            <y>260</y>
             <width>31</width>
             <height>16</height>
            </rect>
@@ -235,7 +235,7 @@ color: #000000;</string>
           <property name="geometry">
            <rect>
             <x>440</x>
-            <y>380</y>
+            <y>290</y>
             <width>51</width>
             <height>16</height>
            </rect>
@@ -269,8 +269,8 @@ color: #000000;</string>
          <widget class="QLabel" name="description_2_label">
           <property name="geometry">
            <rect>
-            <x>10</x>
-            <y>380</y>
+            <x>20</x>
+            <y>290</y>
             <width>371</width>
             <height>16</height>
            </rect>

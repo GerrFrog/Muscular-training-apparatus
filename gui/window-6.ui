@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>480</height>
+    <height>420</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -27,7 +27,7 @@
           <property name="geometry">
            <rect>
             <x>40</x>
-            <y>80</y>
+            <y>40</y>
             <width>681</width>
             <height>121</height>
            </rect>
@@ -64,7 +64,7 @@ color: #000000;</string>
           <property name="geometry">
            <rect>
             <x>240</x>
-            <y>200</y>
+            <y>150</y>
             <width>281</width>
             <height>171</height>
            </rect>
@@ -82,8 +82,8 @@ color: #000000;</string>
          <widget class="QLabel" name="main_label">
           <property name="geometry">
            <rect>
-            <x>280</x>
-            <y>10</y>
+            <x>270</x>
+            <y>0</y>
             <width>221</width>
             <height>31</height>
            </rect>
@@ -116,8 +116,8 @@ color: #000000;</string>
          <widget class="QPushButton" name="previous_pushButton">
           <property name="geometry">
            <rect>
-            <x>20</x>
-            <y>380</y>
+            <x>10</x>
+            <y>270</y>
             <width>227</width>
             <height>61</height>
            </rect>
@@ -149,7 +149,7 @@ color: #FFFFFF;</string>
           <property name="geometry">
            <rect>
             <x>530</x>
-            <y>380</y>
+            <y>270</y>
             <width>227</width>
             <height>61</height>
            </rect>
