@@ -89,7 +89,7 @@ void MainWindow::on_next_pushButton_13_clicked()
     ui->stackedWidget->setCurrentIndex(12);
 }
 
-void MainWindow::on_again_pushButton_clicked()
+void MainWindow::on_again_pushButton_2_clicked()
 {
     ui->stackedWidget->setCurrentIndex(1);
 }
