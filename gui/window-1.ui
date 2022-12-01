@@ -253,7 +253,7 @@ color: #FFFFFF;</string>
         <property name="geometry">
          <rect>
           <x>240</x>
-          <y>10</y>
+          <y>0</y>
           <width>341</width>
           <height>31</height>
          </rect>
@@ -289,7 +289,7 @@ mix-blend-mode: darken;</string>
         <property name="geometry">
          <rect>
           <x>460</x>
-          <y>310</y>
+          <y>330</y>
           <width>71</width>
           <height>21</height>
          </rect>
@@ -323,8 +323,8 @@ color: #000000;</string>
        <widget class="QPushButton" name="next_pushButton_2">
         <property name="geometry">
          <rect>
-          <x>540</x>
-          <y>320</y>
+          <x>550</x>
+          <y>340</y>
           <width>227</width>
           <height>61</height>
          </rect>
@@ -355,8 +355,8 @@ color: #FFFFFF;</string>
        <widget class="QLabel" name="vlaue_label">
         <property name="geometry">
          <rect>
-          <x>410</x>
-          <y>310</y>
+          <x>420</x>
+          <y>330</y>
           <width>41</width>
           <height>21</height>
          </rect>
@@ -378,7 +378,7 @@ text-align: center;
 color: #000000;</string>
         </property>
         <property name="text">
-         <string>100</string>
+         <string>413</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -391,7 +391,7 @@ color: #000000;</string>
         <property name="geometry">
          <rect>
           <x>20</x>
-          <y>310</y>
+          <y>330</y>
           <width>381</width>
           <height>21</height>
          </rect>
@@ -414,6 +414,95 @@ color: #000000;</string>
         </property>
         <property name="text">
          <string>Максимальная частота дрожания руки:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>40</y>
+          <width>591</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="res/res.qrc">:/img/img/graph_1.png</pixmap>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="description_label_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>121</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">position: absolute;
+width: 392px;
+height: 46px;
+left: 52px;
+top: 403px;
+
+font-family: 'Graduate';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;</string>
+        </property>
+        <property name="text">
+         <string>Частота, Гц</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="description_label_3">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>310</y>
+          <width>121</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">position: absolute;
+width: 392px;
+height: 46px;
+left: 52px;
+top: 403px;
+
+font-family: 'Graduate';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;</string>
+        </property>
+        <property name="text">
+         <string>Время, сек.</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -1651,7 +1740,7 @@ color: #FFFFFF;</string>
         <property name="geometry">
          <rect>
           <x>240</x>
-          <y>10</y>
+          <y>-10</y>
           <width>351</width>
           <height>51</height>
          </rect>
@@ -1686,8 +1775,8 @@ mix-blend-mode: darken;</string>
        <widget class="QPushButton" name="next_pushButton_13">
         <property name="geometry">
          <rect>
-          <x>540</x>
-          <y>320</y>
+          <x>550</x>
+          <y>340</y>
           <width>227</width>
           <height>61</height>
          </rect>
@@ -1718,8 +1807,8 @@ color: #FFFFFF;</string>
        <widget class="QLabel" name="measure_1_label">
         <property name="geometry">
          <rect>
-          <x>450</x>
-          <y>310</y>
+          <x>460</x>
+          <y>330</y>
           <width>51</width>
           <height>16</height>
          </rect>
@@ -1753,8 +1842,8 @@ color: #000000;</string>
        <widget class="QLabel" name="measure_2_label">
         <property name="geometry">
          <rect>
-          <x>450</x>
-          <y>350</y>
+          <x>460</x>
+          <y>380</y>
           <width>51</width>
           <height>16</height>
          </rect>
@@ -1788,8 +1877,8 @@ color: #000000;</string>
        <widget class="QLabel" name="value_2_label">
         <property name="geometry">
          <rect>
-          <x>410</x>
-          <y>310</y>
+          <x>420</x>
+          <y>330</y>
           <width>31</width>
           <height>16</height>
          </rect>
@@ -1811,7 +1900,7 @@ text-align: center;
 color: #000000;</string>
         </property>
         <property name="text">
-         <string>100</string>
+         <string>413</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -1823,8 +1912,8 @@ color: #000000;</string>
        <widget class="QLabel" name="value_1_label">
         <property name="geometry">
          <rect>
-          <x>410</x>
-          <y>350</y>
+          <x>420</x>
+          <y>380</y>
           <width>31</width>
           <height>16</height>
          </rect>
@@ -1846,7 +1935,7 @@ text-align: center;
 color: #000000;</string>
         </property>
         <property name="text">
-         <string>100</string>
+         <string>274</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -1858,8 +1947,8 @@ color: #000000;</string>
        <widget class="QLabel" name="description_1_label">
         <property name="geometry">
          <rect>
-          <x>20</x>
-          <y>310</y>
+          <x>30</x>
+          <y>330</y>
           <width>381</width>
           <height>16</height>
          </rect>
@@ -1893,8 +1982,8 @@ color: #000000;</string>
        <widget class="QLabel" name="description_2_label">
         <property name="geometry">
          <rect>
-          <x>20</x>
-          <y>350</y>
+          <x>30</x>
+          <y>380</y>
           <width>371</width>
           <height>16</height>
          </rect>
@@ -1917,6 +2006,95 @@ color: #000000;</string>
         </property>
         <property name="text">
          <string>Конечная максимальная частота дрожания руки:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>40</y>
+          <width>591</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="res/res.qrc">:/img/img/graphs_2.png</pixmap>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="description_label_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>121</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">position: absolute;
+width: 392px;
+height: 46px;
+left: 52px;
+top: 403px;
+
+font-family: 'Graduate';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;</string>
+        </property>
+        <property name="text">
+         <string>Частота, Гц</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="description_label_5">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>310</y>
+          <width>121</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">position: absolute;
+width: 392px;
+height: 46px;
+left: 52px;
+top: 403px;
+
+font-family: 'Graduate';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;</string>
+        </property>
+        <property name="text">
+         <string>Время, сек.</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
