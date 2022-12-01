@@ -93,3 +93,8 @@ void MainWindow::on_again_pushButton_2_clicked()
 {
     ui->stackedWidget->setCurrentIndex(1);
 }
+
+void MainWindow::on_finish_pushButton_2_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(0);
+}
