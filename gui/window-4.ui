@@ -114,7 +114,7 @@ color: #000000;</string>
           <property name="geometry">
            <rect>
             <x>20</x>
-            <y>290</y>
+            <y>270</y>
             <width>227</width>
             <height>61</height>
            </rect>
@@ -145,8 +145,8 @@ color: #FFFFFF;</string>
          <widget class="QPushButton" name="next_pushButton">
           <property name="geometry">
            <rect>
-            <x>530</x>
-            <y>290</y>
+            <x>520</x>
+            <y>270</y>
             <width>227</width>
             <height>61</height>
            </rect>
