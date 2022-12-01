@@ -44,5 +44,6 @@ class MainWindow :
         void on_next_pushButton_11_clicked();
         void on_next_pushButton_12_clicked();
         void on_next_pushButton_13_clicked();
+        void on_again_pushButton_clicked();
 };
 #endif 
