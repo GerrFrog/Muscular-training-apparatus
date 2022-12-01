@@ -52,7 +52,7 @@ public:
         page->setObjectName(QString::fromUtf8("page"));
         sub_label = new QLabel(page);
         sub_label->setObjectName(QString::fromUtf8("sub_label"));
-        sub_label->setGeometry(QRect(-260, 20, 681, 121));
+        sub_label->setGeometry(QRect(40, 80, 681, 121));
         sub_label->setStyleSheet(QString::fromUtf8("width: 609px;\n"
 "height: 227px;\n"
 "left: 105px;\n"
@@ -70,12 +70,12 @@ public:
         sub_label->setWordWrap(true);
         img_label = new QLabel(page);
         img_label->setObjectName(QString::fromUtf8("img_label"));
-        img_label->setGeometry(QRect(0, 90, 281, 171));
+        img_label->setGeometry(QRect(240, 200, 281, 171));
         img_label->setPixmap(QPixmap(QString::fromUtf8(":/img/img/img_4.png")));
         img_label->setAlignment(Qt::AlignCenter);
         main_label = new QLabel(page);
         main_label->setObjectName(QString::fromUtf8("main_label"));
-        main_label->setGeometry(QRect(90, -10, 221, 31));
+        main_label->setGeometry(QRect(280, 10, 221, 31));
         main_label->setStyleSheet(QString::fromUtf8("width: 609px;\n"
 "height: 227px;\n"
 "left: 105px;\n"
@@ -93,7 +93,7 @@ public:
         main_label->setWordWrap(true);
         previous_pushButton = new QPushButton(page);
         previous_pushButton->setObjectName(QString::fromUtf8("previous_pushButton"));
-        previous_pushButton->setGeometry(QRect(30, 340, 227, 61));
+        previous_pushButton->setGeometry(QRect(20, 380, 227, 61));
         previous_pushButton->setStyleSheet(QString::fromUtf8("width: 227px;\n"
 "height: 61px;\n"
 "left: 287px;\n"
@@ -113,7 +113,7 @@ public:
 "color: #FFFFFF;"));
         next_pushButton = new QPushButton(page);
         next_pushButton->setObjectName(QString::fromUtf8("next_pushButton"));
-        next_pushButton->setGeometry(QRect(530, 340, 227, 61));
+        next_pushButton->setGeometry(QRect(530, 380, 227, 61));
         next_pushButton->setStyleSheet(QString::fromUtf8("width: 227px;\n"
 "height: 61px;\n"
 "left: 287px;\n"

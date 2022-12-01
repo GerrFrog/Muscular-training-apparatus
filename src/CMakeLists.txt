@@ -103,7 +103,7 @@ else()
         windows/mainwindow.hpp
         windows/mainwindow.cpp
         # Headers
-        windows/page_1/inc/page_1.hpp
+        # windows/page_1/inc/page_1.hpp
         windows/page_2/inc/page_2.hpp
         windows/page_3/inc/page_3.hpp
         windows/page_4/inc/page_4.hpp
@@ -118,7 +118,7 @@ else()
         windows/page_13/inc/page_13.hpp
 
         # Sources
-        windows/page_1/src/page_1.cpp
+        # windows/page_1/src/page_1.cpp
         windows/page_2/src/page_2.cpp
         windows/page_3/src/page_3.cpp
         windows/page_4/src/page_4.cpp

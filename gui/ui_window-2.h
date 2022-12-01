@@ -38,6 +38,8 @@ public:
         if (Page_2->objectName().isEmpty())
             Page_2->setObjectName(QString::fromUtf8("Page_2"));
         Page_2->resize(800, 480);
+        Page_2->setMinimumSize(QSize(800, 480));
+        Page_2->setMaximumSize(QSize(800, 480));
         Page_2->setStyleSheet(QString::fromUtf8("background-color:white;"));
         verticalLayout_2 = new QVBoxLayout(Page_2);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));

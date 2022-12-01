@@ -39,6 +39,8 @@ public:
         if (Page_3->objectName().isEmpty())
             Page_3->setObjectName(QString::fromUtf8("Page_3"));
         Page_3->resize(800, 480);
+        Page_3->setMinimumSize(QSize(800, 480));
+        Page_3->setMaximumSize(QSize(800, 480));
         Page_3->setStyleSheet(QString::fromUtf8(""));
         verticalLayout_2 = new QVBoxLayout(Page_3);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
@@ -53,7 +55,7 @@ public:
         page->setObjectName(QString::fromUtf8("page"));
         main_label = new QLabel(page);
         main_label->setObjectName(QString::fromUtf8("main_label"));
-        main_label->setGeometry(QRect(60, 30, 341, 61));
+        main_label->setGeometry(QRect(220, 0, 341, 61));
         main_label->setStyleSheet(QString::fromUtf8("width: 545px;\n"
 "height: 39px;\n"
 "left: 128px;\n"
@@ -73,7 +75,7 @@ public:
         main_label->setWordWrap(true);
         description_label = new QLabel(page);
         description_label->setObjectName(QString::fromUtf8("description_label"));
-        description_label->setGeometry(QRect(-20, 190, 421, 41));
+        description_label->setGeometry(QRect(0, 340, 381, 21));
         description_label->setStyleSheet(QString::fromUtf8("position: absolute;\n"
 "width: 392px;\n"
 "height: 46px;\n"
@@ -83,7 +85,7 @@ public:
 "font-family: 'Graduate';\n"
 "font-style: normal;\n"
 "font-weight: 400;\n"
-"font-size: 20px;\n"
+"font-size: 18px;\n"
 "line-height: 23px;\n"
 "text-align: center;\n"
 "\n"
@@ -92,7 +94,7 @@ public:
         description_label->setWordWrap(true);
         measure_label = new QLabel(page);
         measure_label->setObjectName(QString::fromUtf8("measure_label"));
-        measure_label->setGeometry(QRect(210, 240, 71, 21));
+        measure_label->setGeometry(QRect(430, 340, 71, 21));
         measure_label->setStyleSheet(QString::fromUtf8("position: absolute;\n"
 "width: 392px;\n"
 "height: 46px;\n"
@@ -102,7 +104,7 @@ public:
 "font-family: 'Graduate';\n"
 "font-style: normal;\n"
 "font-weight: 400;\n"
-"font-size: 20px;\n"
+"font-size: 18px;\n"
 "line-height: 23px;\n"
 "text-align: center;\n"
 "\n"
@@ -111,7 +113,7 @@ public:
         measure_label->setWordWrap(true);
         vlaue_label = new QLabel(page);
         vlaue_label->setObjectName(QString::fromUtf8("vlaue_label"));
-        vlaue_label->setGeometry(QRect(110, 240, 61, 21));
+        vlaue_label->setGeometry(QRect(390, 340, 41, 21));
         vlaue_label->setStyleSheet(QString::fromUtf8("position: absolute;\n"
 "width: 392px;\n"
 "height: 46px;\n"
@@ -121,7 +123,7 @@ public:
 "font-family: 'Graduate';\n"
 "font-style: normal;\n"
 "font-weight: 400;\n"
-"font-size: 20px;\n"
+"font-size: 18px;\n"
 "line-height: 23px;\n"
 "text-align: center;\n"
 "\n"
@@ -130,7 +132,7 @@ public:
         vlaue_label->setWordWrap(true);
         next_pushButton = new QPushButton(page);
         next_pushButton->setObjectName(QString::fromUtf8("next_pushButton"));
-        next_pushButton->setGeometry(QRect(520, 330, 227, 61));
+        next_pushButton->setGeometry(QRect(520, 350, 227, 61));
         next_pushButton->setStyleSheet(QString::fromUtf8("width: 227px;\n"
 "height: 61px;\n"
 "left: 287px;\n"
